@@ -35,7 +35,7 @@ pvcreate /dev/sda2
 # 3. vgextend   
 查詢root的VG Name：rhel
 
-將sda3擴充到rhel這個VG下
+將sda2擴充到VG Name：rhel下
 
 ```
 vgextend rhel /dev/sda2
