@@ -121,7 +121,7 @@ vgcreate -s 100G datavg /dev/sdb1
 ```
 全部空間
 ```
-vgcreate -s 100G datavg /dev/sdb1
+vgcreate datavg /dev/sdb1
 ```
 ```
 vgdisplay
