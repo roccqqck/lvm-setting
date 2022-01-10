@@ -13,13 +13,13 @@ https://www.itread01.com/content/1549887872.html
  df -h 
  
  lsblk
-
- fdisk -l 
- fdisk -l /dev/sda
 ```
 
 root
 ```
+ fdisk -l 
+ fdisk -l /dev/sda
+ 
  pvdisplay
  vgdisplay
  lvdispplay
